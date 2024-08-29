@@ -17,4 +17,16 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  font-family: var(--main-font);
+  background-color: var(--background-color);
+  color: var(--accent-color);
+  background-image: var(--bcgri-gradient);
+  background-size: cover;
+  
+}
+
+@supports (font-variation-settings: normal) {
+  .page {
+      font-family: var(--main-font);
+  }
 }
