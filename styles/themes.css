@@ -12,6 +12,8 @@
     --bcgri-gradient: repeating-linear-gradient(to right, #000 0 2px,transparent 2px 4px), 
     repeating-linear-gradient(to bottom, #000 0 2px,transparent 2px 4px),
     repeating-linear-gradient(to bottom, #007f0c, #004306);
+    --button-text-color: #00CC14;
+    --stroke-text-color: #00CC14;
 }
 
 :root.theme-light {
@@ -22,6 +24,8 @@
     --bcgri-gradient: repeating-linear-gradient(to right, #d3d3d3 0 2px,transparent 2px 4px), 
     repeating-linear-gradient(to bottom, #d3d3d3 0 2px,transparent 2px 4px),
     repeating-linear-gradient(to bottom, #e7e7e7, #1a1a1a);
+    --button-text-color: #fff;
+    --stroke-text-color: #fff;
 }
 
 @media (prefers-color-scheme: dark) {
